@@ -70,38 +70,3 @@ To move the box horizontally, you can use either the left or right properties.
 
 The values of the box offset properties are usually given in pixels, percentages or ems.
 
-
-# FUNCTION, METHODS & OBJECTS (JS)
-
- ### WHAT IS A FUNCTION?
-
- Functions let you group a series of statements together to perform a specific task. If different parts of a script repeat the same task, you can reuse the function (rather than repeating the same set of statements).
-
- ###  ANONYMOUS FUNCTIONS & FUNCTION EXPRESSIONS
-
-Expressions produce a value. They can be used where values are expected. If a function is placed where a browser expects to see an expression, (e.g., as an argument to a function), then it gets treated as an expression.
-
-### FUNCTION DECLARATION
-
-A function declaration creates a function that you can call later in your code. 
-
-In order to call the function later in your code, you must give it a name, so these are known as named functions. Below, a function called area() is declared, which can then be called using its name.
-
-```
-function area(width, height){
-     return width * height;
-};
-var size= area(3, 4) ;
-
-```
-### FUNCTION EXPRESSION
-
-If you put a function where the interpreter would expect to see an expression, then it is treated as an expression, and it is known as a function expression. In function expressions, the name is usually omitted. A function with no name is called an anonymous function. Below, the function is stored in a variable called area. It can be called like any function created with a function declaration.
-```
-
-var area = function(width, height) { 
-    return width * height;
-};
-var size = area(3, 4) ;
-
-```

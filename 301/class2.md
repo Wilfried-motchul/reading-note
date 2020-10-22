@@ -23,3 +23,30 @@ Here are other reasion for paring programming:
 * Social sKills
 * Job interview readiness
 * Work environment readiness
+
+
+# JQUERY
+
+jQuery offers tasks for JS
+it is simpler to access elements using jQuery selectors rather than to use DOM queries
+lets you update the DOM tree, animate elements in and out of view, and can loop through a set of elements in one line of code
+handles events through methods
+find elements using css style selectors a. `$()` often used as a shorthand... $`('li.hot')` b. selects li elements with a class of hot
+Do something with the elements using Jquery methods a. `$('li.hot')`.addClass('complete');
+in order to use Jquery, you first must include in the script
+benefits of cross-browser comptability
+Single Element
+
+if a selector returns just one element `$('ul')`, the JQuery object contains a reference to one node
+
+# Selectors
+jQuery can use all of the CSS selector methods you might be familiar with, plus quite a few bonus methods.
+
+Some JQ speciic bonus selectors:
+
+`:input` - input elements
+`:image` - all images
+`:hidden` - hidden elements
+`:visibile` - visible elements
+`:animated` - elements currently being animated
+many many more, look them up and play with them

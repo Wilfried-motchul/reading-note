@@ -48,6 +48,9 @@ Basically, a hash code turns a key into an integer. It’s very important that h
 A hashtable traditionally is created from an array. I always like the size 1024. this is important for index placement. After you have created your array of the appropriate size, do some sort of logic to turn that “key” into a numeric number value. Here is a possible suggestion:
 
 > Add or multiply all the ASCII values together.
+
 > Multiply it by a prime number such as 599.
+
 > Use modulo to get the remainder of the result, when divided by the total size of the array.
+
 > Insert into the array at that index.

@@ -87,3 +87,4 @@
 - [Class-44](401/class-44.md)
 - [Class-45](401/class-45.md)
 - [Class-46](401/class-46.md)
+- [Ethics in Tech](401/ethics-in-tech.md)
